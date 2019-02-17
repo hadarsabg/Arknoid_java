@@ -1,0 +1,77 @@
+# Level 1
+# Complicated pattern
+
+START_LEVEL
+level_name:First
+ball_velocities:45,550 46,550 47,550 48,550
+background:image(background_images/patamon.gif)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/patamon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:33
+num_blocks:26
+START_BLOCKS
+-
+-
+---zzzz-
+--zzzzzz
+-zzzzzzzz
+-zzzzzzzz
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Second
+ball_velocities:10,550 -10,550 0,550 20,550,-20,550
+background:image(background_images/digi.jpg)
+paddle_speed:680
+paddle_width:160
+block_definitions:definitions/my_block_definitions.txt
+blocks_start_x:200
+blocks_start_y:40
+row_height:30
+num_blocks:20
+START_BLOCKS
+
+------GG
+------GG
+----GGbbGG
+----GGbbGG
+------GG
+------GG
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Final
+ball_velocities:45,550 55,550
+background:image(background_images/digimonalltogather.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:78
+START_BLOCKS
+-
+-
+-GGGGGGGGGGGGG
+-ccccccccccccc
+-yyyyyyyyyyyyy
+-ggggggggggggg
+-wwwwwwwwwwwww
+-ppppppppppppp
+
+
+END_BLOCKS
+END_LEVEL
+

@@ -1,0 +1,9 @@
+# default values for blocks
+default height:33 width:55 stroke:color(black)
+
+# block definitions
+bdef symbol:z hit_points:1 fill:image(block_images/patamonsmall.jpg)
+
+
+# spacers definitions
+sdef symbol:- width:50
